@@ -1,0 +1,13 @@
+{
+  "steamwebapi_key": "",
+  "faceit_api_key": "",
+  "steam_api_key": "",
+  "min_value": 150,
+  "gsi_port": 3000,
+  "steam_path": "",
+  "cs2_path": "",
+  "license_server_url": "urlserver",
+  "license_key": "generated_license",
+  "bring_on_top_hotkey": "Ctrl+W",
+  "expires_at": ""
+}
