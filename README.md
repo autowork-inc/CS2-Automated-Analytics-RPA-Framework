@@ -17,7 +17,7 @@ A robust client-server RPA (Robotic Process Automation) framework designed for a
 * **Backend:** FastAPI, Uvicorn (REST API architecture)
 * **Database:** SQLite (Scalable to PostgreSQL)
 * **Client UI:** PyQt5 (Custom multi-threaded GUI)
-* **Security:** SHA-256 Request Signatures, HWID Binding, Code Obfuscation (PyArmor)
+* **Security:** SHA-256 Request Signatures, HWID Binding
 
 ## Security & Architecture
 To maintain strict Operational Security (OpSec) and prevent unauthorized access, this repository serves as an architectural showcase. 
