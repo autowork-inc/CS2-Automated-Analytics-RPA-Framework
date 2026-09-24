@@ -1,7 +1,3 @@
-# CS2 Automated Analytics & RPA Framework
-
-![Project Logo](assets/logo.png)
-
 ## Overview
 A robust client-server RPA framework designed for automated data extraction, real-time inventory parsing, and secure data management. Engineered to optimize routine analytical workflows, this project processes live environmental states and aggregates market data through a high-performance backend, delivering instant visual insights via a hardware-accelerated GUI overlay.
 
