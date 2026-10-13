@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-title CS2 Parser — настройка сервера
+title CS2  — настройка сервера
 cd /d "%~dp0"
 
 where python >nul 2>&1
