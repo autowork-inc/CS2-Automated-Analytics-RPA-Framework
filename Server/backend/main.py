@@ -94,10 +94,10 @@ def api_version(request: Request):
 @app.get("/download/update")
 @app.head("/download/update")
 def download_update():
-    exe_path = Path(__file__).resolve().parent.parent / "release" / "CS2_Parser.exe"
+    exe_path = Path(__file__).resolve().parent.parent / "release" / "CS2.exe"
     if not exe_path.is_file():
         raise HTTPException(status_code=404, detail="update_not_available")
-    return FileResponse(exe_path, filename="CS2_Parser.exe", media_type="application/octet-stream")
+    return FileResponse(exe_path, filename="CS2.exe", media_type="application/octet-stream")
 
 
 class ValidateBody(BaseModel):
