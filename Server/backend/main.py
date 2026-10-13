@@ -56,7 +56,7 @@ MAX_KEY_ATTEMPTS = 5
 API_SALT = "example_1_@_key"
 CURRENT_CLIENT_VERSION = 1.0
 
-app = FastAPI(title="CS2 Parser API", docs_url=None, redoc_url=None)
+app = FastAPI(title="CS2 API", docs_url=None, redoc_url=None)
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 
