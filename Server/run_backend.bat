@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-title CS2 Parser - Backend
+title CS2 - Backend
 cd /d "%~dp0"
 
 if not exist "backend\main.py" (
