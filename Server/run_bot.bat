@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-title CS2 Parser - Bot
+title CS2 - Bot
 cd /d "%~dp0"
 
 if not exist "bot\bot.py" (
